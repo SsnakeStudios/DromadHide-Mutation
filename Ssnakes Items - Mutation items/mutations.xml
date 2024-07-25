@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mutations>
+	
+	
+	<category Name="TEST" DisplayName="&amp;GSsnake's Mutations!">
+  
+		<mutation Name="ssnake.dromadhide" Cost="1" MaxSelected="1" Class="Ssnake_DromadHide" Exclusions="" Tile="Tile_Test.png" ></mutation>
+		
+	</category>
+	
+</mutations>

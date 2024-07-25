@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+
+	<!-- ColorString="&amp;" colors the black pixels, DetailColor="" colors the white pixels. -->
+
+	<!-- Tier 1 Objects -->
+
+	<object Name="ssnake.dromadhide" Inherits="BaseCloak">
+		
+		<part Name="Render" DisplayName="dromad skin-cloak" RenderString="]" Tile="Dromad_Hide.bmp" ColorString="&amp;w" DetailColor="W" />
+		<part Name="Description" Short="A dromedary-kin was slain in cold blood and the remains were left to dry in the Salt Sun for a fortnight, before it's killers fashioned an alcove intowards the hump. The inside of this skin-cloak is warm." />
+		
+		<part Name="Armor" AV="1" DV="1" Heat="0" Cold="0" Elec="0" Acid="0" WornOn="Back" />
+		<part Name="CarryBonus" Amount="20" Style="Percent" />
+		<part Name="AddsRep" Faction="dromad merchants" Value="-400" />
+		
+		<part Name="MutationOnEquip" ClassName="Ssnake_DromadHide" />
+		
+		<part Name="Physics" Weight="14" Organic="false" />
+		<part Name="Commerce" Value="25" />
+		<part Name="Springy" Factor="0.0" />
+		<tag Name="Tier" Value="6" />
+		
+	</object>
+	
+	<!-- Tier 2 Objects -->
+
+	<!-- Tier 3 Objects -->
+
+	<!-- Tier 4 Objects -->
+	
+	<!-- Tier 5 Objects -->
+	
+	<!-- Tier 6 Objects -->	
+
+	<!-- Tier 7 Objects -->
+	
+	<!-- Tier 8 Objects -->
+  
+</objects>
